@@ -204,7 +204,7 @@
 
 		eggSubmit.addEventListener('click', function () {
 			if (eggPassword.value === EASTER_PASSWORD) {
-				egEggActivated();
+				eggActivated();
 			} else {
 				alert('Contraseña incorrecta. Intenta nuevamente.');
 				eggPassword.value = '';
@@ -212,7 +212,7 @@
 			}
 		});
 
-		function egEggActivated() {
+		function eggActivated() {
 			eggPanel.classList.remove('visible');
 			eggPanel.setAttribute('aria-hidden', 'true');
 			document.body.classList.add('egg-active');
@@ -263,7 +263,7 @@
 
 		const videoUrl1 = 'https://dl.dropbox.com/scl/fi/r180ebavliismc9gyi7m7/vecteezy_moscow-russia-02-20-2022-close-up-of-iphone-details_44304693.mp4?rlkey=3j236gg3ch09tezv89as2vipk&st=u8h0ln1w&dl=0';
 		const videoUrl2 = 'https://dl.dropbox.com/scl/fi/89nx4lclx0r43ouqvl6je/vecteezy_close-up-of-technician-measuring-voltage-electronic-circuit_28208813.MOV?rlkey=6v30jf11krl2wix1jg8bgdks2&st=exun43iq&dl=0';
-        const videoUrl3 = 'https://dl.dropbox.com/scl/fi/3u0abnyrawmaf2721qtrh/vecteezy_mobile-software-updating-animation-on-phone-screen-with_15524459.mp4?rlkey=16lhiq9lgheao3lfpqohkdpbr&st=ym0phvxg&dl=0';
+		const videoUrl3 = 'https://dl.dropbox.com/scl/fi/3u0abnyrawmaf2721qtrh/vecteezy_mobile-software-updating-animation-on-phone-screen-with_15524459.mp4?rlkey=16lhiq9lgheao3lfpqohkdpbr&st=ym0phvxg&dl=0';
 
 		function openModalFor(url,title,htmlText){
 			if(!modal) return;
@@ -290,7 +290,7 @@
 			card1.classList.add('clickable');
 			card1.addEventListener('click', function(){
 				openModalFor(videoUrl1, 'Reparación de celulares',
-					'<p><strong>Cambio de pantalla:</strong> Reemplazamos pantallas dañadas por repuestos originales o compatibles de alta calidad. Incluye prueba y garantía.</p><p><strong>Cambio de batería:</strong> Sustituimos baterías degradadas por modelos certificados para recuperar autonomía y seguridad.</p><p><strong>Pin/conector de carga:</strong> Reparamos o reemplazamos el conector de carga para eliminar problemas de carga intermitente o conexión floja.</p>'
+					'<p><strong>Cambio de pantalla:</strong> Reemplazamos pantallas dañadas por repuestos originales o compatibles de alta calidad. Incluye prueba y garantía.</p><p><strong>Cambio de batería:</strong> Baterías nuevas con capacidad original. Diagnóstico de salud de batería incluido.</p><p><strong>Conector de carga:</strong> Reparación o reemplazo de puerto de carga dañado.</p><p><strong>Diagnóstico de hardware:</strong> Análisis completo de componentes para identificar fallas.</p>'
 				);
 			});
 		}
@@ -299,7 +299,7 @@
 			card2.classList.add('clickable');
 			card2.addEventListener('click', function(){
 				openModalFor(videoUrl2, 'Mantenimiento y actualización',
-					'<p><strong>Mantenimiento:</strong> Servicio de limpieza, revisión y calibración de componentes para alargar la vida útil del equipo.</p><p><strong>Cambio de HDD a SSD:</strong> Migramos tu sistema y datos desde un disco HDD a un SSD más rápido y fiable, mejorando tiempos de arranque y rendimiento.</p>'
+					'<p><strong>Mantenimiento:</strong> Servicio de limpieza, revisión y calibración de componentes para alargar la vida útil del equipo.</p><p><strong>Cambio de HDD a SSD:</strong> Migramos tu sistema operativo y archivos a un disco SSD más rápido y confiable.</p><p><strong>Reparación de placa:</strong> Reparaciones por microsoldadura y reemplazo de componentes.</p><p><strong>Limpieza profunda:</strong> Eliminación de polvo, óxido y mejora del flujo de aire para mejor refrigeración.</p>'
 				);
 			});
 		}
@@ -308,7 +308,7 @@
 			card3.classList.add('clickable');
 			card3.addEventListener('click', function(){
 				openModalFor(videoUrl3, 'Instalación de software',
-					'<p><strong>Instalación y configuración de software:</strong> Instalamos sistemas, controladores y software necesario para el buen funcionamiento del equipo.</p><p><strong>Antivirus y seguridad:</strong> Instalamos y configuramos soluciones antivirus, realizamos análisis y recomendaciones para mantener tu equipo protegido.</p>'
+					'<p><strong>Instalación y configuración de software:</strong> Instalamos sistemas operativos, controladores y software necesario para el buen funcionamiento del equipo.</p><p><strong>Antivirus y seguridad:</strong> Instalación de antivirus premium y herramientas de protección.</p><p><strong>Recuperación de datos:</strong> Recuperación de archivos de discos dañados o formateados.</p><p><strong>Optimización del sistema:</strong> Limpieza de archivos temporales, desfragmentación y mejora de rendimiento.</p>'
 				);
 			});
 		}
