@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Técnico Móvil y Laptops Servicio Técnico</title>
+	<meta name="description" content="Reparación y mantenimiento de celulares y laptops. Diagnóstico rápido, piezas originales y garantía." />
+	<link rel="stylesheet" href="styles.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript">(function(){emailjs.init('YOUR_EMAILJS_PUBLIC_KEY');})();</script>
+	<link id="favicon" rel="icon" href="Assets/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+	<video id="eggBackgroundVideo" class="egg-video" muted loop playsinline preload="auto">
+		<source src="https://dl.dropbox.com/scl/fi/jjidlrwnks5ebct48nmoq/phonegg.mp4?rlkey=yjcqrv7q30ctj64icigb98v0q&st=2kc2vljx&dl=0" type="video/mp4" />
+	</video>
+	<header class="site-header">
+		<div class="container header-grid">
+			<div class="brand">
+				<img id="logoImage" src="Assets/logo.png" alt="J4C0B0 Tech  Support logo" class="logo" />
+				<div>
+					<h1>J4C0B0 Tech  Support</h1>
+					<p class="tag">Celulares • Laptops • Accesorios</p>
+				</div>
+			</div>
+			<div class="contact-short">
+				<a href="tel:+593987624731" class="btn small">Llámanos: +593 98 762 4731</a>
+				<a href="#contact" class="btn outline">Presupuesto</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container hero-grid">
+				<div>
+					<h2>Reparaciones rápidas y confiables</h2>
+					<p>Diagnóstico en el momento, reparación express y garantía en piezas y mano de obra.</p>
+					<ul class="features">
+						<li>Pantallas y baterías</li>
+						<li>Placas madre y microsoldadura</li>
+						<li>Formateo y optimización</li>
+					</ul>
+					<div class="hero-actions">
+						<a href="#services" class="btn">Ver servicios</a>
+						<a href="#contact" class="btn outline">Pedir presupuesto</a>
+					</div>
+				</div>
+				<div class="hero-image" aria-hidden>
+					<video src="https://dl.dropbox.com/scl/fi/a16vllqkzpdf6i9ro3g2v/vecteezy_motherboard-hardware-electronic-technology_1626104.mp4?rlkey=a51rhnzyo4tk9tozeigbk8t18&st=hb2knihx&dl=0" autoplay muted loop playsinline></video>
+				</div>
+			</div>
+		</section>
+
+		<section id="services" class="container services">
+			<h3>Servicios</h3>
+			<div class="services-grid">
+				<article id="serviceCard1" class="card">
+					<h4>Reparación de celulares</h4>
+					<p>Cambio de pantalla, batería, conector de carga y diagnóstico de hardware.</p>
+				</article>
+				<article id="serviceCard2" class="card">
+					<h4>Reparación de laptops</h4>
+					<p>Reparación de placa, reemplazo de disco/SSD, limpieza y actualización de software.</p>
+				</article>
+				<article id="serviceCard3" class="card">
+					<h4>Soporte y mantenimiento</h4>
+					<p>Instalación de antivirus, recuperación de datos y optimización del sistema.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="about container">
+			<h3>Sobre nosotros</h3>
+			<p>Soy técnico con experiencia en reparación de dispositivos. Trabajo con piezas de calidad y ofrezco garantía por escrito.</p>
+			<ul>
+				<li>Presupuestos sin compromiso</li>
+				<li>Reparaciones en el día (según stock)</li>
+				<li>Servicio a domicilio bajo pedido</li>
+			</ul>
+		</section>
+
+		<section id="contact" class="contact container">
+			<h3>Contacto / Presupuesto</h3>
+			<p>Rellena el formulario o llámanos para una respuesta rápida.</p>
+			<form id="contactForm" class="contact-form">
+				<input type="hidden" name="to_email" value="jacobtechsupport@gmail.com" />
+				<div class="grid">
+					<label>
+						Nombre
+						<input type="text" name="name" required />
+					</label>
+					<label>
+						Teléfono o WhatsApp
+						<input type="tel" name="phone" required />
+					</label>
+					<label>
+						Dispositivo
+						<select name="device">
+							<option>Celular</option>
+							<option>Laptop</option>
+							<option>Tablet</option>
+							<option>PC</option>
+						</select>
+					</label>
+					<label class="full">
+						Descripción del problema
+						<textarea name="message" rows="4"></textarea>
+					</label>
+				</div>
+				<div class="form-actions">
+					<button type="submit" class="btn">Enviar</button>
+					<button type="reset" class="btn outline">Limpiar</button>
+				</div>
+			</form>
+			<p class="small">También puedes escribirnos por WhatsApp: <a href="https://wa.me/593987624731">+593987624731</a></p>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-grid">
+			<div>
+				<strong>J4C0B0 Tech  Support</strong>
+
+			</div>
+			<div>
+				<p>Tel: <a href="tel:+593987624731">+593 98 762 4731</a></p>
+				<p>Email: <a href="mailto:jacobtechsupport@gmail.com">jacobtechsupport@gmail.com</a></p>
+			</div>
+		</div>
+		<div class="copyright">© 2026 J4C0B0 Tech  Support — Todos los derechos reservados</div>
+	</footer>
+
+	<div id="eggTrigger" class="egg-trigger" title="Acceso secreto"></div>
+	<div id="eggPanel" class="egg-panel" aria-hidden="true">
+		<div class="egg-panel-inner">
+			<p>Introduce contraseña para activar el easter egg.</p>
+			<input type="password" id="eggPassword" placeholder="Contraseña" autocomplete="off" />
+			<div class="form-actions">
+				<button type="button" class="btn small" id="eggSubmit">Activar</button>
+				<button type="button" class="btn outline small" id="eggClose">Cerrar</button>
+			</div>
+			<p class="egg-note">El botón se mantiene casi oculto en la esquina inferior izquierda.</p>
+		</div>
+	</div>
+
+	<!-- Modal para mostrar video y texto de servicios -->
+	<div id="serviceModal" class="modal" aria-hidden="true">
+		<div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="serviceModalTitle">
+			<button class="modal-close" id="serviceModalClose" aria-label="Cerrar">×</button>
+			<h4 id="serviceModalTitle">Video y reparaciones</h4>
+			<div class="modal-body">
+				<video id="serviceModalVideo" class="modal-iframe" controls playsinline preload="metadata" title="Video de servicios">
+					<source id="serviceModalSource" src="" type="video/mp4">
+					Tu navegador no soporta video HTML5.
+				</video>
+				<div id="serviceModalText" class="modal-text"></div>
+				<p class="modal-fallback">Si el video no se carga, <a id="serviceModalLink" href="#" target="_blank" rel="noopener">ábralo en una nueva pestaña</a>.</p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		document.getElementById('contactForm').addEventListener('submit', function (e) {
+			e.preventDefault();
+			const form = this;
+			const name = form.name.value || 'Cliente';
+			emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form)
+				.then(function () {
+					alert('Gracias ' + name + '. Tu solicitud fue enviada correctamente.');
+					form.reset();
+				}, function (error) {
+					console.error('EmailJS error:', error);
+					alert('Ocurrió un error al enviar tu solicitud. Intenta nuevamente o contáctanos por WhatsApp.');
+				});
+		});
+
+		const eggTrigger = document.getElementById('eggTrigger');
+		const eggPanel = document.getElementById('eggPanel');
+		const eggPassword = document.getElementById('eggPassword');
+		const eggSubmit = document.getElementById('eggSubmit');
+		const eggClose = document.getElementById('eggClose');
+		const eggVideo = document.getElementById('eggBackgroundVideo');
+		const heroImage = document.querySelector('.hero-image video');
+		const logoImg = document.getElementById('logoImage');
+		const serviceCards = [
+			document.getElementById('serviceCard1'),
+			document.getElementById('serviceCard2'),
+			document.getElementById('serviceCard3')
+		];
+		const serviceVideos = ['https://dl.dropbox.com/scl/fi/r1whby2vjcx5uvi0zwu5s/cuad1.mp4?rlkey=fce4974ppvxvsbliqdns1oqgi&st=2x85vsy7&dl=0', 'Assets/cuad2.mp4', 'Assets/cuad3.mp4'];
+		const EASTER_PASSWORD = 'egg123';
+
+		eggTrigger.addEventListener('click', function () {
+			eggPanel.classList.toggle('visible');
+			eggPanel.setAttribute('aria-hidden', !eggPanel.classList.contains('visible'));
+			eggPassword.focus();
+		});
+
+		eggClose.addEventListener('click', function () {
+			eggPanel.classList.remove('visible');
+			eggPanel.setAttribute('aria-hidden', 'true');
+		});
+
+		eggSubmit.addEventListener('click', function () {
+			if (eggPassword.value === EASTER_PASSWORD) {
+				egEggActivated();
+			} else {
+				alert('Contraseña incorrecta. Intenta nuevamente.');
+				eggPassword.value = '';
+				eggPassword.focus();
+			}
+		});
+
+		function egEggActivated() {
+			eggPanel.classList.remove('visible');
+			eggPanel.setAttribute('aria-hidden', 'true');
+			document.body.classList.add('egg-active');
+			if (eggVideo) {
+				eggVideo.currentTime = 0;
+				eggVideo.play().catch(function(){});
+			}
+			if (heroImage) {
+				heroImage.src = 'https://dl.dropbox.com/scl/fi/tmkp2goey1cxynacti4c2/rec.gif?rlkey=b78qrsr46vhk6d136hzele69z&st=7uwrykv6&raw=1';
+			}
+			if (logoImg) {
+				const video = document.createElement('video');
+				video.src = 'Assets/logoegg.mp4';
+				video.autoplay = true;
+				video.loop = true;
+				video.muted = true;
+				video.playsInline = true;
+				video.className = 'logo logo-video';
+				logoImg.parentNode.replaceChild(video, logoImg);
+			}
+			serviceCards.forEach(function(card, index) {
+				if (card) {
+					card.innerHTML = '<video class="service-video" src="' + serviceVideos[index] + '" autoplay loop muted playsinline></video>';
+				}
+			});
+			const favicon = document.getElementById('favicon');
+			if (favicon) {
+				favicon.href = 'Assets/faviconegg.gif';
+			}
+			alert('Easter egg activado. ¡Modo secreto desbloqueado!');
+		}
+	</script>
+
+	<script>
+	// Modal de servicios: abrir/cerrar y controlar iframe
+	(function(){
+		const modal = document.getElementById('serviceModal');
+		const video = document.getElementById('serviceModalVideo');
+		const sourceEl = document.getElementById('serviceModalSource');
+		const closeBtn = document.getElementById('serviceModalClose');
+		const fallbackLink = document.getElementById('serviceModalLink');
+		const titleEl = document.getElementById('serviceModalTitle');
+		const textEl = document.getElementById('serviceModalText');
+
+		const card1 = document.getElementById('serviceCard1');
+		const card2 = document.getElementById('serviceCard2');
+		const card3 = document.getElementById('serviceCard3');
+
+		const videoUrl1 = 'https://dl.dropbox.com/scl/fi/r180ebavliismc9gyi7m7/vecteezy_moscow-russia-02-20-2022-close-up-of-iphone-details_44304693.mp4?rlkey=3j236gg3ch09tezv89as2vipk&st=u8h0ln1w&dl=0';
+		const videoUrl2 = 'https://dl.dropbox.com/scl/fi/89nx4lclx0r43ouqvl6je/vecteezy_close-up-of-technician-measuring-voltage-electronic-circuit_28208813.MOV?rlkey=6v30jf11krl2wix1jg8bgdks2&st=exun43iq&dl=0';
+        const videoUrl3 = 'https://dl.dropbox.com/scl/fi/3u0abnyrawmaf2721qtrh/vecteezy_mobile-software-updating-animation-on-phone-screen-with_15524459.mp4?rlkey=16lhiq9lgheao3lfpqohkdpbr&st=ym0phvxg&dl=0';
+
+		function openModalFor(url,title,htmlText){
+			if(!modal) return;
+			modal.classList.add('open');
+			modal.setAttribute('aria-hidden','false');
+			if (sourceEl) sourceEl.src = url;
+			if (video) { video.load(); video.play().catch(function(){}); }
+			if (fallbackLink) fallbackLink.href = url;
+			if (titleEl) titleEl.textContent = title;
+			if (textEl) textEl.innerHTML = htmlText;
+			document.body.style.overflow = 'hidden';
+		}
+
+		function closeModal(){
+			if(!modal) return;
+			modal.classList.remove('open');
+			modal.setAttribute('aria-hidden','true');
+			if (video) video.pause();
+			if (sourceEl) sourceEl.src = '';
+			document.body.style.overflow = '';
+		}
+
+		if(card1){
+			card1.classList.add('clickable');
+			card1.addEventListener('click', function(){
+				openModalFor(videoUrl1, 'Reparación de celulares',
+					'<p><strong>Cambio de pantalla:</strong> Reemplazamos pantallas dañadas por repuestos originales o compatibles de alta calidad. Incluye prueba y garantía.</p><p><strong>Cambio de batería:</strong> Sustituimos baterías degradadas por modelos certificados para recuperar autonomía y seguridad.</p><p><strong>Pin/conector de carga:</strong> Reparamos o reemplazamos el conector de carga para eliminar problemas de carga intermitente o conexión floja.</p>'
+				);
+			});
+		}
+
+		if(card2){
+			card2.classList.add('clickable');
+			card2.addEventListener('click', function(){
+				openModalFor(videoUrl2, 'Mantenimiento y actualización',
+					'<p><strong>Mantenimiento:</strong> Servicio de limpieza, revisión y calibración de componentes para alargar la vida útil del equipo.</p><p><strong>Cambio de HDD a SSD:</strong> Migramos tu sistema y datos desde un disco HDD a un SSD más rápido y fiable, mejorando tiempos de arranque y rendimiento.</p>'
+				);
+			});
+		}
+
+		if(card3){
+			card3.classList.add('clickable');
+			card3.addEventListener('click', function(){
+				openModalFor(videoUrl3, 'Instalación de software',
+					'<p><strong>Instalación y configuración de software:</strong> Instalamos sistemas, controladores y software necesario para el buen funcionamiento del equipo.</p><p><strong>Antivirus y seguridad:</strong> Instalamos y configuramos soluciones antivirus, realizamos análisis y recomendaciones para mantener tu equipo protegido.</p>'
+				);
+			});
+		}
+
+		if(closeBtn) closeBtn.addEventListener('click', closeModal);
+		if(modal) modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+		document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+	})();
+	</script>
+</body>
+</html>
